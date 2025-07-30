@@ -22,5 +22,5 @@ jobs:
 
     - name: Sync Files to S3
       run: |
-        aws s3 sync ./your-local-folder s3://your-s3-bucket-name --delete
+        aws s3 sync ./main s3://hackaton-bucket-20250730 --delete
           
