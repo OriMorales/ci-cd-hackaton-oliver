@@ -12,7 +12,12 @@ jobs:
     steps:
     - name: Checkout Code
       uses: actions/checkout@v3
-
+    - name: use node js
+    - uses: actions/setup-node@4
+      with:
+        node-version: '22.x'
+    - name: install dependencies
+    - run: npm install
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v3
       with:
