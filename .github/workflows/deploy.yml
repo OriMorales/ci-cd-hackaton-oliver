@@ -23,6 +23,7 @@ jobs:
       run: npm install
 
     - name: build project
+      working-directory: ./main
       run: npm run build
     
     - name: Configure AWS Credentials
