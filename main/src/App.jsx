@@ -1,5 +1,5 @@
 import { Fragment } from "react"; 
-import Header from "./components/Header/Header.jsx";
+import Header from "./components/header/Header.jsx";
 import CoreConcepts from "./components/CoreConcepts.jsx";
 import Examples from "./components/Examples.jsx";
 
