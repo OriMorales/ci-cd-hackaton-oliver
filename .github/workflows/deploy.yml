@@ -26,10 +26,10 @@ jobs:
         aws-region: us-east-1  # Replace with your region
         
     - name: install dependencies
-    - run: npm install
+      run: npm install
 
     - name: build project
-    - run: npm run build
+      run: npm run build
     
     - name: Sync Files to S3
       run: 
