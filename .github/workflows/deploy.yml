@@ -19,6 +19,7 @@ jobs:
         node-version: '22.x'
 
     - name: install dependencies
+      working-directory: ./main
       run: npm install
 
     - name: build project
